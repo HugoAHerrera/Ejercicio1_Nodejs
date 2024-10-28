@@ -1,0 +1,22 @@
+{
+    "intervalo_segundos": 5,
+    "informacion_periodica": [
+      {
+        "nombre": "Uso de CPU",
+        "comando": "process.cpuUsage()"
+      },
+      {
+        "nombre": "Uso de Memoria",
+        "comando": "process.memoryUsage()"
+      },
+      {
+        "nombre": "Tiempo activo del sistema",
+        "comando": "os.uptime()"
+      },
+      {
+        "nombre": "Tiempo activo de Node.js",
+        "comando": "process.uptime()"
+      }
+    ]
+  }
+  
